@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Meta For SEO Purposes -->
+  <meta name="description"
+    content="I'm a self-taught web designer who's looking towards opportunities to grow, personally and professionally." />
+  <meta name="keywords" content="creative solutions, marketing services, portfolio, website, design services, user experience, graphic design, designer, 
+    web designer, web designer to hire, html and css, html, css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="icons/favicon.ico" />
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/timeline.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Document Title -->
+  <title>Portfolio - K. Raluca</title>
+</head>
+
+<body>
+  <!-- ******************* NAVIGATION BAR & HERO SECTION ************************ -->
+  <header>
+    <!-- *************************** NAVIGATION BAR ******************************** -->
+    <nav id="navbar" class="
+          navigation-bar
+          full-width-element
+          flex-row
+          section-padding
+          justify-sp-between
+          flex-centered
+        ">
+      <!-- LEFT NAV-LINKS -->
+      <ul class="flex-row flex-centered">
+        <!-- Logo -->
+        <li>
+          <a class="logo" href="index.html">LOGO</a>
+        </li>
+      </ul>
+      <!-- CENTER NAV-LINKS -->
+      <ul class="centered-links flex-row flex-centered">
+        <!-- Homepage Link -->
+        <li class="nav-list">
+          <!-- English Version -->
+          <a class="
+                nav-link
+                active-nav-link
+                two-ms-transition
+                english-language-text
+              " lang="en" href="#hero-section">Home</a>
+          <!-- Romanian Version -->
+          <a class="
+              nav-link
+              active-nav-link
+              hidden-link
+              two-ms-transition
+              romanian-language-text
+            " lang="ro" href="#hero-section">Acasă</a>
+        </li>
+        <!-- About Me Page Link -->
+        <li class="nav-list">
+          <!-- English Version -->
+          <a class="nav-link two-ms-transition english-language-text" lang="en" href="#about-section">About Me</a>
+          <!-- Romanian Version -->
+          <a class="
+          nav-link
+          hidden-link
+          two-ms-transition
+          romanian-language-text
+        " lang="ro" href="#about-section">Despre Mine</a>
+        </li>
+        <!-- Skills Page Link -->
+        <li class="nav-list">
+          <!-- English Version -->
+          <a class="nav-link two-ms-transition english-language-text" lang="en" href="#my-skills">Skills</a>
+          <!-- Romanian Version -->
+          <a class="
+          nav-link
+          two-ms-transition
+          hidden-link
+          romanian-language-text
+        " lang="ro" href="#my-skills">Abilități</a>
+        </li>
+        <!-- Résumé Page Link -->
+        <li class="nav-list">
+          <!-- English Version -->
+          <a class="nav-link two-ms-transition english-language-text" lang="en" href="#my-résumé">Résumé</a>
+          <!-- Romanian Version -->
+          <a class="
+          nav-link
+          two-ms-transition
+          hidden-link
+          romanian-language-text
+        " lang="ro" href="#my-résumé">CV</a>
+        </li>
+        <!-- Projects Page Link -->
+        <li class="nav-list">
+          <!-- English Version -->
+          <a class="nav-link two-ms-transition english-language-text projects-link" lang="en"
+            href="#my-projects">Projects</a>
+          <!-- Romanian Version -->
+          <a class="
+            nav-link
+            two-ms-transition
+            hidden-link
+            romanian-language-text
+            projects-link" lang="ro" href="#my-projects">Proiecte</a>
+        </li>
+        <!-- Contact Page Link -->
+        <li class="nav-list">
+          <!-- En Version -->
+          <a class="nav-link two-ms-transition english-language-text" lang="en" href="#contact-me">Contact</a>
+          <!-- Romanian Version -->
+          <a class="
+          nav-link
+          two-ms-transition
+          hidden-link
+          romanian-language-text
+        " lang="ro" href="#contact-me">Contact</a>
+        </li>
+      </ul>
+      <!-- RIGHT SIDE LANGUAGE TOGGLE -->
+      <label class="switch">
+        <input type="checkbox" class="language-option" />
+        <span class="
+              slider
+              round
+              flex-row flex-centered
+              justify-sp-between
+              borderless
+              cursor-pointer
+              four-ms-transition
+            " onclick="languageSlider()">
+          <span id="romanian-language" class="opaque-element">RO</span>
+          <span id="english-language" class="">EN</span>
+        </span>
+      </label>
+    </nav>
+    <!-- *************************** HERO SECTION ******************************** -->
+    <section id="hero-section" class="hero-section section-padding flex-row flex-centered">
+      <!-- Text -->
+      <span class="hero-text">
+        <!-- English language title -->
+        <h1 class="title smaller-margin-bot marginbot-2rem english-language-text">
+          Are you looking for a creative solution?
+        </h1>
+        <!-- Romanian language title -->
+        <h2 class="title smaller-margin-bot marginbot-2rem hidden-link romanian-language-text">
+          Sunteți în cautarea unui web designer?
+        </h2>
+        <!-- English language paragraph -->
+        <p class="paragraph smaller-margin-bot marginbot-2rem english-language-text">
+          Do you need someone reliable, creative and hard-working in your
+          team? If you're looking towards employing a person who's eager to
+          learn and work in the web design and marketing industry, you've
+          clicked the right link. If I've captured your attention, please feel
+          free to scroll through my portfolio.
+        </p>
+        <!-- Romanian language paragraph -->
+        <p class="paragraph smaller-margin-bot marginbot-2rem hidden-link romanian-language-text">
+          Aveți nevoie de o persoană creativă, muncitoare și creativă în
+          echipa dumneavoastră? Dacă doriți să angajati o persoană care
+          dorește să învețe și să muncească în industria aceasta, ați dat
+          click pe linkul potrivit. În cazul în care v-am acaparat atenția, vă
+          rog să vă uitați peste portofoliul meu.
+        </p>
+        <span>
+          <!-- Primary button -->
+          <button class="
+                button
+                primary-button
+                gradient-bg
+                borderless
+                two-ms-transition
+                cursor-pointer
+              ">
+            <!-- English language -->
+            <a class="english-language-text" href="projects.html"><span class="hidden-on-smaller-screens">Check Out My
+                Work</span> <span class="hidden-on-larger-screens">See My Work</span></a>
+            <!-- Romanian language -->
+            <a class="romanian-language-text hidden-link" href="projects.html">Către Portofoliu</a>
+          </button>
+          <!-- Secondary button -->
+          <button class="
+                button
+                secondary-button
+                borderless
+                two-ms-transition
+                cursor-pointer
+              ">
+            <!-- English language -->
+            <a class="english-language-text" href="documents/Curriculum Vitae - K. Raluca.pdf" target="_blank"
+              download>Download CV</a>
+            <!-- Romanian language -->
+            <a class="romanian-language-text hidden-link" href="documents/Curriculum Vitae - K. Raluca.pdf"
+              target="_blank" download>Descărcați CV-ul</a>
+          </button>
+        </span>
+      </span>
+      <!-- Image -->
+      <img class="hero-image" src="images/hero.svg" alt="illustrated person, creative idea" />
+    </section>
+  </header>
+  <!-- *************************** SIDENAV ******************************** -->
+  <aside id="sidenav-menu"
+    class="side-navigation-container borderless flex-column hidden-on-large-screens blurry-neumorphism">
+    <!-- Burger Menu -->
+    <ul id="sidenav-top" class="hidden-link">
+      <li class="sidenav-list">
+        <p class="article-title">LOGO</p>
+      </li>
+    </ul>
+    <ul id="sidenav-center" class="sidenav flex-column hidden-link">
+      <!-- Homepage Link -->
+      <li class="sidenav-list">
+        <!-- English Version -->
+        <a class="
+            sidenav-link active-sidenav-link 
+            two-ms-transition
+            english-language-text
+           " lang="en" href="#hero-section"><i
+            class="fas fa-home active-sidenav-icon sidenav-icon round-corner"></i>Home</a>
+        <!-- Romanian Version -->
+        <a class="
+                    sidenav-link active-sidenav-link 
+                    hidden-link
+                    two-ms-transition
+                    romanian-language-text
+                  " lang="ro" href="#hero-section"><i
+            class="fas fa-home active-sidenav-icon sidenav-icon round-corner"></i>Acasă</a>
+      </li>
+      <!-- About Me Page Link -->
+      <li class="sidenav-list">
+        <!-- English Version -->
+        <a class="sidenav-link two-ms-transition english-language-text" lang="en" href="#about-section"><i
+            class="fas fa-user sidenav-icon round-corner"></i>About Me</a>
+        <!-- Romanian Version -->
+        <a class="
+                sidenav-link
+                hidden-link
+                two-ms-transition
+                romanian-language-text
+              " lang="ro" href="#about-section"><i class="fas fa-user sidenav-icon round-corner"></i>Despre Mine</a>
+      </li>
+      <!-- Skills Page Link -->
+      <li class="sidenav-list">
+        <!-- English Version -->
+        <a class="sidenav-link two-ms-transition english-language-text" lang="en" href="#my-skills"><i
+            class="fas fa-drafting-compass sidenav-icon round-corner"></i>Skills</a>
+        <!-- Romanian Version -->
+        <a class="
+                sidenav-link
+                two-ms-transition
+                hidden-link
+                romanian-language-text
+              " lang="ro" href="#my-skills"><i
+            class="fas fa-drafting-compass sidenav-icon round-corner"></i>Abilități</a>
+      </li>
+      <!-- Résumé Page Link -->
+      <li class="sidenav-list">
+        <!-- English Version -->
+        <a class="sidenav-link two-ms-transition english-language-text" lang="en" href="#my-résumé"><i
+            class="fas fa-folder-open sidenav-icon round-corner"></i>Résumé</a>
+        <!-- Romanian Version -->
+        <a class="
+                sidenav-link
+                two-ms-transition
+                hidden-link
+                romanian-language-text
+              " lang="ro" href="#my-résumé"><i class="fas fa-folder-open sidenav-icon round-corner"></i>Curriculum
+          Vitae</a>
+      </li>
+      <!-- Projects Page Link -->
+      <li class="sidenav-list">
+        <!-- English Version -->
+        <a class="sidenav-link two-ms-transition english-language-text projects-link" lang="en" href="#my-projects"><i
+            class="fas fa-layer-group sidenav-icon round-corner"></i>Projects</a>
+        <!-- Romanian Version -->
+        <a class="
+                 sidenav-link
+                  two-ms-transition
+                  hidden-link
+                  romanian-language-text
+                  projects-link" lang="ro" href="#my-projects"><i
+            class="fas fa-layer-group sidenav-icon round-corner"></i>Proiecte</a>
+      </li>
+      <!-- Contact Page Link -->
+      <li class="sidenav-list">
+        <!-- En Version -->
+        <a class="sidenav-link two-ms-transition english-language-text" lang="en" href="#contact-me"><i
+            class="fas fa-mail-bulk sidenav-icon round-corner"></i>Contact</a>
+        <!-- Romanian Version -->
+        <a class="
+                sidenav-link
+                two-ms-transition
+                hidden-link
+                romanian-language-text
+              " lang="ro" href="#contact-me"><i class="fas fa-mail-bulk sidenav-icon round-corner"></i>Contact</a>
+      </li>
+    </ul>
+    <!-- Burger Menu -->
+    <ul>
+      <li class="sidenav-list">
+        <div id="burger-menu" class="
+                                  burger-bars
+                                  four-ms-transition
+                                  cursor-pointer
+                                  hidden-on-large-screens
+                                " onclick="toggleBurger(this)">
+          <div class="burger-bar first-bar gradient-bg round-corner"></div>
+          <div class="burger-bar second-bar gradient-bg round-corner"></div>
+          <div class="burger-bar third-bar gradient-bg round-corner"></div>
+        </div>
+      </li>
+    </ul>
+  </aside>
+  <!-- *************************** ABOUT SECTION ******************************** -->
+  <section id="about-section" class="about-section section-padding flex-row flex-centered">
+    <!-- Text -->
+    <span class="about-text">
+      <!-- English language title -->
+      <h2 class="title marginbot-1rem english-language-text">About Me</h2>
+      <!-- Romanian language title -->
+      <h2 class="title marginbot-2rem hidden-link romanian-language-text">
+        Despre Mine
+      </h2>
+      <!-- English language paragraph -->
+      <p class="paragraph marginbot-2rem english-language-text">
+        My name is Raluca, I am 22 years old I'm looking forward to starting a
+        new chapter in my life. My thirst for knowledge is insatiable, and I
+        think this must the reason why be the reason why I love spending most
+        of my time learning new things and reading books. Some of my passions
+        and hobbies are:
+      </p>
+      <!-- Romanian language paragraph -->
+      <p class="paragraph marginbot-2rem hidden-link romanian-language-text">
+        Mă numesc Raluca, am 22 de ani și aștept cu nerăbdare să încep un nou
+        capitol al vieții mele. probabil acesta este motivul pentru care îmi
+        petrec zilele învățând lucruri noi, îmbunătățindu-le pe cele vechi și
+        citind. Câteva dintre pasiunile mele sunt:
+      </p>
+    </span>
+    <!-- Hobbies -->
+    <span class="hobbies flex-row flex-centered justify-sp-between">
+      <!-- English language article -->
+      <div class="left-side-articles">
+        <!-- First article - Yoga -->
+        <article class="hobby-item english-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-spa fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Yoga</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            Because my main activity is sitting at the desk, yoga helps my
+            posture and well-being.
+          </p>
+        </article>
+        <!-- Romanian Language -->
+        <article class="hobby-item hidden-link romanian-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-spa fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Yoga</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            Din cauza timpului îndelungat la birou, obișnuiesc să practic yoga
+            pentru o postură mai bună.
+          </p>
+        </article>
+        <!-- Second article - Reading -->
+        <article class="hobby-item english-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-book-reader fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Reading</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            I've loved reading since I was little, and now it's one of my
+            relaxation methods.
+          </p>
+        </article>
+        <!-- Romanian Language -->
+        <article class="hobby-item hidden-link romanian-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-book-reader fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Cititul</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            Cărțile mi-au fost cel mai bun prieten încă din copilărie, acum
+            sunt o metodă de relaxare.
+          </p>
+        </article>
+      </div>
+      <!-- Image -->
+      <img class="about-image" src="images/about-info.svg" alt="personal information, data illustration" />
+      <!-- English language article -->
+      <div class="right-side-articles">
+        <!-- First article - Gaming -->
+        <article class="hobby-item english-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-gamepad fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Gaming</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            Shooters, MOBAs and open-world games are my favorite way of
+            blowing off steam.
+          </p>
+        </article>
+        <!-- Romanian Language -->
+        <article class="hobby-item hidden-link romanian-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-gamepad fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Jocurile Video</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            Jocurile tip shooter, MOBA și open-world mă ajută mereu la
+            reducerea nivelului de stres.
+          </p>
+        </article>
+        <!-- Second article - Cycling -->
+        <article class="hobby-item english-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-biking fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Cycling</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            Even though riding a real bike is a foreign feeling to me, I enjoy
+            biking indoors.
+          </p>
+        </article>
+        <!-- Romanian Language -->
+        <article class="hobby-item hidden-link romanian-language-text">
+          <div class="
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="fas fa-biking fa-xl hobby-icon"></i>
+          </div>
+          <p class="article-title">Ciclism</p>
+          <p class="paragraph article-paragraph hidden-on-smaller-screens">
+            Deși nu știu să folosesc o bicicletă normală, îmi place să o
+            utilizez pe cea de interior.
+          </p>
+        </article>
+      </div>
+    </span>
+  </section>
+  <!-- *************************** SKILLS SECTION ******************************** -->
+  <section id="my-skills" class="
+        skills-section
+        flex-column
+        section-padding
+        flex-centered
+        justify-center
+      ">
+    <h3 class="title marginbot-4rem english-language-text">My Skills</h3>
+    <h3 class="title marginbot-4rem hidden-link romanian-language-text">
+      Abilitățile Mele
+    </h3>
+    <div class="skills-and-services flex-row flex-wrap">
+      <!-- English Language - Web Design -->
+      <article class="service-container english-language-text blurry-neumorphism">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">Web Design</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Due to the year spent on learning design, I've aquired a basic
+          knowledge in web design and in the programs listed below.
+        </p>
+      </article>
+      <!-- Romanian Language - Web Design -->
+      <article class="
+            service-container
+            romanian-language-text
+            hidden-link
+            blurry-neumorphism
+          ">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">Web Design</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Datorită anului petrecut învățând design, am cunoștințe de bază în
+          web design și-n programele de mai jos.
+        </p>
+      </article>
+      <!-- English Language - Graphic Design -->
+      <article class="service-container english-language-text blurry-neumorphism">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">Graphic Design</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Due to the year spent on learning design, I've aquired a basic
+          knowledge in graphic design and in the programs listed below.
+        </p>
+      </article>
+      <!-- Romanian Language - Graphic Design -->
+      <article class="
+            service-container
+            romanian-language-text
+            hidden-link
+            blurry-neumorphism
+          ">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">Design Grafic</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Datorită anului petrecut învățând design, am cunoștințe de bază în
+          graphic design și-n programele de mai jos.
+        </p>
+      </article>
+      <!-- English Language - UX Design -->
+      <article class="service-container english-language-text blurry-neumorphism">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">UX Design</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Due to the year spent on learning design, I have a basic knowledge
+          in user experience design and in the programs listed below.
+        </p>
+      </article>
+      <!-- Romanian Language - UX Design -->
+      <article class="
+            service-container
+            romanian-language-text
+            hidden-link
+            blurry-neumorphism
+          ">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">UX Design</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Datorită anului petrecut învățând design, am baze de user experience
+          design și-n programele de mai jos.
+        </p>
+      </article>
+      <!-- English Language - SEO -->
+      <article class="service-container english-language-text blurry-neumorphism">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">SEO</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          I've also aquired a basic knowledge in search engine optimization by
+          completing a certified course.
+        </p>
+      </article>
+      <!-- Romanian Language - SEO -->
+      <article class="
+            service-container
+            romanian-language-text
+            hidden-link
+            blurry-neumorphism
+          ">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">SEO</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Datorită completării unui curs de optimizare a motoarelor de
+          căutare, am dobândit și bazele acestui subiect.
+        </p>
+      </article>
+      <!-- English Language - Marketing -->
+      <article class="service-container english-language-text blurry-neumorphism">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">Marketing</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Due to the year spent on learning design, I've aquired a basic
+          knowledge in graphic design and in the programs listed below.
+        </p>
+      </article>
+      <!-- Romanian Language - Marketing -->
+      <article class="
+            service-container
+            romanian-language-text
+            hidden-link
+            blurry-neumorphism
+          ">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">Marketing</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Datorită anului petrecut învățând design, am cunoștințe de bază în
+          graphic design și-n programele de mai jos.
+        </p>
+      </article>
+      <!-- English Language - E-Mail Marketing -->
+      <article class="service-container english-language-text blurry-neumorphism">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">E-Mail Marketing</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Due to the year spent on learning design, I have a basic knowledge
+          in user experience design and in the programs listed below.
+        </p>
+      </article>
+      <!-- Romanian Language - E-Mail Marketing -->
+      <article class="
+            service-container
+            romanian-language-text
+            hidden-link
+            blurry-neumorphism
+          ">
+        <div class="flex-row flex-centered">
+          <span class="
+                skill-icon-background
+                icon-background
+                gradient-bg
+                flex-row flex-centered
+                justify-center
+                round-corner
+              ">
+            <i class="
+                  fas
+                  fa-swatchbook
+                  article-icon
+                  fa-xl
+                  hobby-icon
+                  skill-icon
+                "></i>
+          </span>
+          <p class="article-title skill-article-title">E-Mail Marketing</p>
+        </div>
+        <p class="paragraph skill-paragraph">
+          Datorită anului petrecut învățând design, am baze de user experience
+          design și-n programele de mai jos.
+        </p>
+      </article>
+    </div>
+  </section>
+  <!-- *************************** RESUME SECTION ******************************** -->
+  <section id="my-résumé" class="resume-section section-padding flex-column justify-center flex-centered">
+    <h4 class="title english-language-text">My Résumé</h4>
+    <h4 class="title romanian-language-text hidden-link">Curriculum Vitae</h4>
+    <!-- CV Timeline -->
+    <article class="timeline">
+      <ul>
+        <!--    High-School      -->
+        <li>
+          <!-- English -->
+          <div class="resume-content english-language-text">
+            <h3 class="unselectable">Economics</h3>
+            <p class="paragraph unselectable">
+              I have studied this profile while attending to the <strong>Agricultural College "Traian Savulescu" of
+                Tirgu-Mures</strong>.
+              Here I had the opportunity to learn many skills, such as managing my finances,
+              doing primary accounting, and improving my english thanks to my wonderful
+              teachers that supported me throughout this four year-long journey.
+            </p>
+          </div>
+          <!-- Romanian -->
+          <div class="resume-content romanian-language-text hidden-link">
+            <h3 class="unselectable">Economie</h3>
+            <p class="paragraph unselectable">
+              Am studiat acest profil în cadrul <strong>Colegiului Agricol "Traian Săvulescu" din Tîrgu-Mureș</strong>.
+              Aici am avut oportunitatea de a învăța cum să îmi gestionez finanțele, să efectuez contabilitate primară,
+              și să-mi perfecționez cunoștințele de limba engleză, totul datorită profesorilor mei minunați, care m-au
+              sprijinit în această călătorie ce s-a întins în cursul a patru ani.
+            </p>
+          </div>
+          <div class="time gradient-bg round-corner">
+            <h4 class="unselectable">2014 - 2018</h4>
+          </div>
+        </li>
+        <!--    University       -->
+        <li>
+          <!-- English -->
+          <div class="resume-content english-language-text">
+            <h3 class="unselectable">Management</h3>
+            <p class="paragraph unselectable">
+              I went to the <strong>University of Medicine, Pharmacy, Science and Technology "George Emil-Palade" of
+                Tirgu-Mures</strong>,
+              hoping that my creativity will be harnessed and I could have the capacity to help people trough my work.
+              Unfortunately, there were only a few moments in which I felt like it could help me achieve my goals,
+              so I quit during the 2nd year and started to learn IT by myself, hoping it will help me fulfill my
+              purpose.
+            </p>
+          </div>
+          <!-- Romanian -->
+          <div class="resume-content romanian-language-text hidden-link">
+            <h3 class="unselectable">Management</h3>
+            <p class="paragraph unselectable">
+              Am urmat acest profil al <strong>Universității de Medicină, Farmacie, Știință și Tehnologie
+                "George Emil-Palade" din Tîrgu-Mureș</strong>,
+              sperând că voi avea șansa de a ajuta oamenii prin munca mea și că îmi va arăta moduri prin
+              care să-mi valorific creativitatea.
+              Din nefericire, au fost foarte puține momente în care am simțit că aceasta
+              m-ar ajuta,
+              astfel am decis să renunț în cel de-al doilea an și am început să învăț IT de una singură.
+            </p>
+          </div>
+          <div class="time gradient-bg round-corner">
+            <h4 class="time-text unselectable">2018 - 2020</h4>
+          </div>
+        </li>
+        <!--    AIESEC - VOLUNTEERING      -->
+        <li>
+          <!-- English -->
+          <div class="resume-content english-language-text">
+            <h3 class="unselectable">Team Leader</h3>
+            <p class="basic-paragraph unselectable">
+              While being a student at UMFST, I got out my confort zone and <strong>became a
+                volunteer in an organization called AIESEC</strong>.
+              There I worked with amazing people on promoting and managing student exchange projects.
+              As a team leader, I managed 8 wonderful members and by working as a team, we worked towards our goals and
+              prepared the steps required for student exchanges.
+            </p>
+          </div>
+          <!-- Romanian -->
+          <div class="resume-content romanian-language-text hidden-link">
+            <h3 class="unselectable">Lider de Echipă</h3>
+            <p class="basic-paragraph unselectable">
+              În timpul studenției, am ieșit din zona mea de confort și <strong>am devenit voluntar într-o organizație
+                denumită AIESEC</strong>.
+              Aici, alături de niște oameni minunați, am promovat și gestionat proiectele de schimb de experiență pentru
+              studenții străini.
+              În calitate de lider al unei echipe de 8 persoane, am muncit împreună înspre îndeplinirea sarcinilor
+              noastre și
+              prepararea pașilor necesari pentru procesul de schimb.
+            </p>
+          </div>
+          <div class="time gradient-bg round-corner">
+            <h4 class="time-text unselectable">2019 - 2020</h4>
+          </div>
+        </li>
+        <!--    HubSpot Academy - SEO Certificate       -->
+        <li>
+          <!-- English -->
+          <div class="resume-content english-language-text">
+            <h3 class="unselectable">Search Engine Optimization Certification</h3>
+            <p class="basic-paragraph unselectable">
+              While trying to hone my designing and coding skills, I took a
+              <strong>
+                <a class="external-link two-ms-transition"
+                  href="https://academy.hubspot.com/courses/seo-training?library=true&" target="_blank">
+                  SEO Course on Hubspot Academy
+                </a>
+              </strong>
+              to get myself familiarized with search engines and their algorithms. This course helped me understand
+              how to design websites that rank higher in the organic search results, thus helping a business' marketing
+              strategy.
+            </p>
+            <button class="smaller-button borderless flex-self-start" type="button" name="button"
+              style="text-decoration: underline; font-style: italic; font-weight: 500;">
+              <a href="documents/Search Engine Optimization Certificate - Hubspot Academy - K. Raluca.pdf"
+                target="_blank" download>
+                Download Certificate <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </button>
+          </div>
+          <!-- Romanian -->
+          <div class="resume-content romanian-language-text hidden-link">
+            <h3 class="unselectable">Certificare în Optimizarea Motoarelor De Căutare</h3>
+            <p class="basic-paragraph unselectable">
+              În timp ce îmi îmbunătățeam abilitățile de design și programare, am făcut un curs de
+              <strong>
+                <a class="external-link two-ms-transition"
+                  href="https://academy.hubspot.com/courses/seo-training?library=true&" target="_blank">
+                  Optimizare a Motoarelor de Căutare prin Hubspot Academy
+                </a>
+              </strong>
+              pentru a mă putea familiariza cu motoarele de căutare și algoritmii acestora. Acest curs m-a ajutat să
+              înțeleg cum să creez site-uri care apar mai sus în rezultatele organice, putând astfel să ajut
+              strategia de marketing a unei companii.
+            </p>
+            <button class="smaller-button borderless flex-self-start" type="button" name="button"
+              style="text-decoration: underline; font-style: italic; font-weight: 500;">
+              <a href="documents/Search Engine Optimization Certificate - Hubspot Academy - K. Raluca.pdf"
+                target="_blank" download>
+                Descărcați Certificatul <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </button>
+          </div>
+          <div class="time gradient-bg round-corner">
+            <h4 class="time-text unselectable">2021 - 2022</h4>
+          </div>
+        </li>
+        <!--    Google Digital Marketing Certificate      -->
+        <li>
+          <!-- English -->
+          <div class="resume-content english-language-text">
+            <h3 class="unselectable">Digital Marketing Certification</h3>
+            <p class="basic-paragraph unselectable">
+              Because I love to learn new things, I tried my luck and learned the basics of
+              <strong>
+                <a class="external-link two-ms-transition"
+                  href="https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing" target="_blank">
+                  Digital Marketing with Google's Digital Garage
+                </a>
+              </strong>.
+              In 2017 I took the course, but because of an update of their platform I've lost the credentials,
+              so I took the course again this year to refresh my memory.
+            </p>
+            <button class="smaller-button borderless flex-self-start" type="button" name="button"
+              style="text-decoration: underline; font-style: italic; font-weight: 500;">
+              <a href="documents/Digital Marketing Certificate - Google - K. Raluca.pdf" target="_blank" download>
+                Download Certificate <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </button>
+          </div>
+          <!-- Romanian -->
+          <div class="resume-content romanian-language-text hidden-link">
+            <h3 class="unselectable">Certificare în Marketing Digital</h3>
+            <p class="basic-paragraph unselectable">
+              Îmi place să învăț lucruri noi, tocmai de aceea am început un curs de
+              <strong>
+                <a class="external-link two-ms-transition"
+                  href="https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing" target="_blank">
+                  Marketing Digital în cadrul Atelierului Digital Google
+                </a>
+              </strong>.
+              Am mai completat cursul în 2017, dar din cauza unei actualizări a platformei lor,
+              am pierdut certificarea. Motiv pentru care în
+              acest an am decis să-l refac.
+            </p>
+            <button class="smaller-button borderless flex-self-start" type="button" name="button"
+              style="text-decoration: underline; font-style: italic; font-weight: 500;">
+              <a class="romanian-language-text hidden-link"
+                href="documents/Digital Marketing Certificate - Google - K. Raluca.pdf" target="_blank" download>
+                Descărcați Certificatul <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </button>
+          </div>
+          <div class="time gradient-bg round-corner">
+            <h4 class="time-text unselectable">2021 - 20??</h4>
+          </div>
+        </li>
+        <!--    Email Marketing Certificate       -->
+        <li>
+          <!-- English -->
+          <div class="resume-content english-language-text">
+            <h3 class="unselectable">E-Mail Marketing Certification</h3>
+            <p class="basic-paragraph unselectable">
+              Due to these two courses, I've re-developed an interest in marketing, fact which pushed me to keep
+              learning
+              about this field, so I took another one, an
+              <strong>
+                <a class="external-link two-ms-transition"
+                  href="https://academy.hubspot.com/courses/email-marketing?library=true&" target="_blank">
+                  E-Mail Marketing course on Hubspot Academy
+                </a>
+              </strong>.
+              Here I've learned how to send proper e-mails based on user research,
+              the buyer stages they're in, so basically how to do it right.
+            </p>
+            <button class="smaller-button borderless flex-self-start" type="button" name="button"
+              style="text-decoration: underline; font-style: italic; font-weight: 500;">
+              <!-- EN -->
+              <a class="english-language-text"
+                href="documents/Email Marketing Certificate - Hubspot Academy - K. Raluca.pdf" target="_blank" download>
+                Download Certificate <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </button>
+          </div>
+          <!-- Romanian -->
+          <div class="resume-content romanian-language-text hidden-link">
+            <h3 class="unselectable">Certificare în E-Mail Marketing</h3>
+            <p class="basic-paragraph unselectable">
+              Datorită celor de mai sus, am redobândit un interes în marketing, fapt care m-a împins să studiez mai mult
+              despre acest domeniu,
+              așa că am realizat cursul de <strong>
+                <a class="external-link two-ms-transition"
+                  href="https://academy.hubspot.com/courses/email-marketing?library=true&" target="_blank">
+                  E-Mail Marketing pe platforma Hubspot Academy
+                </a>
+              </strong>.
+              Aici am dobândit cunoștințe de bază cu privire la trimiterea mesajelor electronice individuale, în funcție
+              de
+              comportamentul utilizatorului în interacțiunea sa cu un serviciu sau o aplicație web.
+            </p>
+            <button class="smaller-button borderless flex-self-start" type="button" name="button"
+              style="text-decoration: underline; font-style: italic; font-weight: 500;">
+              <a href="documents/Email Marketing Certificate - Hubspot Academy - K. Raluca.pdf" target="_blank"
+                download>
+                Descărcați Certificatul <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </button>
+          </div>
+          <div class="time gradient-bg round-corner">
+            <h4 class="time-text unselectable">2021 - 2023</h4>
+          </div>
+        </li>
+        <!--    Content Marketing Certificate      -->
+        <li>
+          <div class="resume-content">
+            <h3 class="unselectable">Content Marketing Certification</h3>
+            <p class="basic-paragraph unselectable">
+              After E-mail Marketing attracted my attention and inspired me to learn more, I took the
+              <strong>
+                <a class="external-link two-ms-transition"
+                  href="https://academy.hubspot.com/courses/content-marketing?library=true&" target="_blank">
+                  Content Marketing course on Hubspot Academy
+                </a>
+              </strong>.
+              It was an eye-opener, because even at university we didn't cover as much information as the teachers did
+              here.
+              I've learned the importance of a human, friendly,
+              kind and interactive content when it comes to promoting products to customers.
+            </p>
+            <button class="smaller-button borderless flex-self-start" type="button" name="button"
+              style="text-decoration: underline; font-style: italic; font-weight: 500;">
+              <a href="documents/Content Marketing Certificate - Hubspot Academy - K. Raluca.pdf" target="_blank"
+                download>
+                Download Certificate <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </button>
+          </div>
+          <div class="time gradient-bg round-corner">
+            <h4 class="time-text unselectable">2021 - 2023</h4>
+          </div>
+        </li>
+    </article>
+    <!-- English language primary button -->
+    <button class="
+        button
+        primary-button
+        gradient-bg
+        borderless
+        english-language-text
+        two-ms-transition
+        cursor-pointer
+        ">
+      <a href="documents/Curriculum Vitae - K. Raluca.pdf" target="_blank" download>Download CV</a>
+    </button>
+    <!-- Romanian language primary button -->
+    <button class="
+        button
+        primary-button
+        gradient-bg
+        borderless
+        hidden-link
+        romanian-language-text
+        two-ms-transition
+        cursor-pointer
+        ">
+      <a href="documents/Curriculum Vitae - K. Raluca.pdf" target="_blank" download>Descărcați CV-ul</a>
+    </button>
+  </section>
+  <!-- *************************** PROJECTS SECTION ******************************** -->
+  <section id="my-projects" class="projects-section flex-column flex-centered">
+    <h5 class="title english-language-text">My Projects</h5>
+    <h5 class="title romanian-language-text hidden-link">Proiectele Mele</h5>
+    <main class="projects-container full-width-element section-padding">
+      <!-- First Project -->
+      <article class="project-card">
+        <img class="project-card-thumbnail two-ms-transition cursor-pointer" src="images/anatome-thumbnail.png"
+          alt="creative project, bookzone online library">
+        <!-- Hover Effect -->
+        <div class="hidden-link">
+          <h3 class="skill-article-title project-card-title">Project Name</h3>
+          <button class="card-button borderless" type="button" name="button">
+            <!-- English Lang Button -->
+            <a class="english-language-text" href="#">
+              View Project <i class="fas fa-long-arrow-alt-right fa-xs"></i>
+            </a>
+            <!-- Romanian Lang Button -->
+            <a class="romanian-language-text hidden-link" href="#">
+              Vedeți Proiectul <i class="fas fa-long-arrow-alt-right fa-xs"></i>
+            </a>
+          </button>
+        </div>
+      </article>
+      <!-- Second Project -->
+      <article class="project-card">
+        <img class="project-card-thumbnail two-ms-transition cursor-pointer" src="images/charmys-thumbnail-green.png"
+          alt="creative project, bookzone online library">
+        <!-- Hover Effect -->
+        <div class="hidden-link">
+          <h3 class="skill-article-title project-card-title">Project Name</h3>
+          <button class="card-button borderless" type="button" name="button">
+            <!-- English Lang Button -->
+            <a class="english-language-text" href="#">
+              View Project <i class="fas fa-long-arrow-alt-right fa-xs"></i>
+            </a>
+            <!-- Romanian Lang Button -->
+            <a class="romanian-language-text hidden-link" href="#">
+              Vedeți Proiectul <i class="fas fa-long-arrow-alt-right fa-xs"></i>
+            </a>
+          </button>
+        </div>
+      </article>
+
+    </main>
+    <!-- Primary button -->
+    <button class="
+        button
+        primary-button
+        gradient-bg
+        borderless
+        two-ms-transition
+        cursor-pointer
+        vedeti-proiectele-btn
+        ">
+      <!-- English language -->
+      <a class="english-language-text two-ms-transition" href="projects.html">See All Projects</a>
+      <!-- Romanian language -->
+      <a class="romanian-language-text hidden-link two-ms-transition" href="projects.html">Vedeți
+        Toate Proiectele</a>
+    </button>
+  </section>
+  <!-- *************************** CONTACT SECTION ******************************** -->
+  <section id="contact-me" class="contact-section section-padding flex-row flex-centered justify-sp-between">
+    <!-- Form -->
+    <span class="form-container">
+      <!-- Title -->
+      <h6 class="title english-language-text">Get In Touch With Me</h6>
+      <h6 class="title romanian-language-text hidden-link">Doriți Să Mă Contactați?</h6>
+      <!-- Paragraph -->
+      <p class="paragraph english-language-text">Click <em>here</em> to copy my email
+        address or contact me
+        through this form.
+      </p>
+      <p class="paragraph romanian-language-text hidden-link">Puteți apăsa <em>aici</em>
+        pentru a-mi copia adresa
+        de e-mail.
+      </p>
+      <!-- Form -->
+      <form class="contact-form" action="" method="POST" enctype="text/plain" name="EmailForm">
+        <!-- Name -->
+        <fieldset class="borderless english-language-text">
+          <input id="name" type="text" name="name" class="field-input" minlength="3" placeholder="Your Name" required />
+          <label class="field-label" for="name">Your Name</label>
+        </fieldset>
+        <!-- Nume -->
+        <fieldset class="borderless romanian-language-text hidden-link">
+          <input id="nume" type="text" name="nume" class="field-input" minlength="3" placeholder="Numele Dvs."
+            required />
+          <label class="field-label" for="nume">Numele Dvs.</label>
+        </fieldset>
+        <!-- Mail EN -->
+        <fieldset class="borderless  english-language-text">
+          <input id="email" type="text" name="email" class="field-input" minlength="3" required
+            placeholder="Your Email" />
+          <label class="field-label" for="email">Your E-Mail Address</label>
+        </fieldset>
+        <!-- Mail Ro-->
+        <fieldset class="borderless romanian-language-text hidden-link">
+          <input id="adresaMail" type="text" name="adresaMail" class="field-input" minlength="3" required
+            placeholder="Adresa Dvs. de E-Mail" />
+          <label class="field-label" for="adresaMail">Adresa Dvs. de E-Mail</label>
+        </fieldset>
+        <!-- Message -->
+        <fieldset class="borderless english-language-text">
+          <textarea type="text" id="message" name="message" class="field-input field-textarea" maxlength="400" rows="4"
+            placeholder="Your Message" required></textarea>
+          <label class="field-label" for="message">Your Message</label>
+        </fieldset>
+        <!-- Mesaj -->
+        <fieldset class="borderless romanian-language-text hidden-link">
+          <textarea type="text" id="mesaj" name="mesaj" class="field-input field-textarea" maxlength="400" rows="4"
+            placeholder="Mesajul pe care doriți să-l
+            transmiteți" required></textarea>
+          <label class="field-label romanian-language-text hidden-link" for="mesaj">Mesajul pe care doriți să-l
+            transmiteți</label>
+        </fieldset>
+        <!-- Submit Button -->
+        <input type="submit" value="Send Message" class="form-button button primary-button gradient-bg borderless english-language-text 
+          two-ms-transition cursor-pointer">
+        <input type="submit" value="Trimiteți Mesajul" return false" class="form-button button primary-button gradient-bg borderless romanian-language-text hidden-link 
+          two-ms-transition cursor-pointer">
+      </form>
+    </span>
+    <!-- Image -->
+    <img class="contact-image" src="images/contact2.svg" alt="phone email contact method">
+  </section>
+  <!-- *************************** FOOTER SECTION ******************************** -->
+  <footer class="flex-row justify-center">
+    <p class="paragraph footer-paragraph">Made with <strong class="footer-heart-icon">&#10084</strong> in 2021</p>
+  </footer>
+  <!-- External Javascript -->
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
